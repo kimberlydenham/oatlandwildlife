@@ -153,9 +153,38 @@ ul#nav li {
 	color: #836E65;
 }
 
-#table {
+#office {
+	height:150px;
+	width:200px;
 	margin-top:20px;
+	margin-left:30px;
+	position:absolute;
+}
+#address{
+	margin-top:85px;
+	margin-left:220px;
+	position:absolute;
+}
+#phone{
+	height:150px;
+	width:200px;
+	margin-top:20px;
+	margin-left:375px;
+	position:absolute;
+}
+
+#number{
+	margin-top:85px;
+	margin-left:475px;
+	font-size:large;
+}
+
+
+#table {
+	border-top:#C6C2B7 ridge;
+	margin-top:80px;
 	margin-left:25px;
+	margin-right:25px;
 	font-size: small;
 }
 
@@ -166,12 +195,7 @@ ul#nav li {
 	margin-left:30px;
 }
 
-#callme {
-	height:200px;
-	width:404px;
-	margin-top:5px;
-	margin-left:173;
-}
+
 
 
 
