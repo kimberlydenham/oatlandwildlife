@@ -1,0 +1,256 @@
+@charset "UTF-8";
+#container {
+	height:1405px;
+	width:100%;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;	
+}
+
+
+@font-face {
+	font-family: "Cabin-Regular copy"; src:url(../fonts/Cabin-Regular%20copy.otf);
+}
+
+
+html{
+	margin:auto;
+	width:1020px;
+}
+
+body {
+	font-family:Cabin-Regular copy;
+	vertical-align:middle;
+	margin:0px auto;	
+}
+
+div{
+	font-family: Cabin-Regular copy;
+	margin: 0px auto;
+}
+
+
+#homeimage {
+	position: absolute;
+	margin-top: 0px;
+	margin-left:0px;
+	height: 360px;
+	width: 100%;
+}
+
+#slideshow{
+	float: left;
+	position: fixed;
+	padding: 0;
+}
+
+#background {
+	width:1020px;
+	height:95px;
+	margin-top:360px;
+	position:absolute;
+	background-color: #bfbcb4;
+	
+}
+
+#logo {
+	margin-left:30px;
+	margin-top:5px;
+	position: absolute;
+}
+
+ul#nav li a {
+	text-decoration: none;
+	padding: 5px 0;
+	width: 100px;
+	color: #836E65;
+}
+
+ul#nav {
+  margin-left: 410px;
+  margin-top: 40px;
+  list-style:none;
+  width: 395px;
+  position:absolute;
+  font-size:small;
+}
+
+ul#nav li {
+  display:inline;
+  margin-left: 20px;
+}
+
+#donate2 {
+	height:81px;
+	width:100px;
+	margin-left: 886px;
+	margin-top:0px;
+	position: absolute;
+}
+
+#browntexture {
+	background-color: #362D2B;
+	/* [disabled]background-repeat: no-repeat; */
+	height: 200px;
+	width: 1020px;
+	margin-top: 455px;
+	position: absolute;
+}
+
+
+#hours {
+	height:115px;
+	width:115px;
+	margin-top:42px;
+	margin-left:30px;
+	position: absolute;
+}
+
+#directions {
+	height:115px;
+	width:115px;
+	margin-top:42px;
+	margin-left:160px;
+	position:absolute;
+}
+
+#ourstaff {
+	height:115px;
+	width:115px;
+	margin-top:42px;
+	margin-left:290px;
+	position:absolute;
+}
+
+#ourmission {
+	height:20px;
+	width:120px;
+	margin-top:35px;
+	margin-left:470px;
+	position:absolute;
+	color:#EF4C30;
+	font-size:medium;
+}
+
+#mission {
+	height: auto;
+	width:520px;
+	margin-top:65px;
+	margin-left:470px;
+	position:absolute;
+	color:#C6C2B7;
+	font-size:medium;
+}
+
+
+#background2 {
+	height: 750px;
+	width: 750px;
+	margin-top: 655px;
+	position: absolute;
+	background-color: #ECECE9;
+	text-align: center;
+	color: #836E65;
+}
+
+#table {
+	margin-top:20px;
+	margin-left:25px;
+	font-size: small;
+}
+
+#background2 p{
+	text-align:center;
+	font-size:small;
+	margin-right:30px;
+	margin-left:30px;
+}
+
+#callme {
+	height:200px;
+	width:404px;
+	margin-top:5px;
+	margin-left:173;
+}
+
+
+
+
+	
+
+#backgroundside {
+	background-color: #bfbcb4;
+	height: 725px;
+	width: 219px;
+	margin-top: 655px;
+	margin-left: 750px;
+	position: absolute;
+	padding-left:51px;
+	padding-top:25px;
+}
+
+
+#footer {
+	position: absolute;
+	margin-top: 1305px;
+	height: 100px;
+	width:1020px;
+	background-color:#B4B2AB;
+}
+
+ul#footernav li a {
+	text-decoration: none;
+	padding: 5px 0;
+	width: 100px;
+	color: #836E65;
+	font-size:small;
+}
+
+ul#footernav {
+  margin-left: -53px;
+  margin-top: 25px;
+  list-style:none;
+  width: 425px;
+  position:absolute;
+}
+
+ul#footernav li {
+  display:inline;
+  margin-left: 45px;
+}	
+
+#signup {
+	 height:20px;
+	 width:212px;
+	 margin-top:59px;
+	 margin-left:30px;
+	 position:absolute;
+	 color: #836E65;
+ }
+ 
+ #email {
+	 height:26px;
+	 width:232px;
+	 margin-top:55px;
+	 margin-left:237px;
+	 position:absolute;
+ }
+ #signupbtn {
+	 height:26px;
+	 width:101px;
+	 margin-top:55px;
+	 margin-left:490px;
+	 position:absolute;
+ }
+ #socialmedia {
+	 height:46px;
+	 width:230px;
+	 margin-top:27px;
+	 margin-left:755px;
+	 position:absolute;
+ }
+	
+#socialmedia a	 {
+	margin-left:6px;
+}
+ 
