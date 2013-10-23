@@ -131,15 +131,11 @@ ul#nav li {
 }
 
 #register {
-	height: 50px;
+	height: 70px;
 	width: 300px;
 	margin-top: 65px;
 	margin-left: 640px;
-	padding-bottom:20px;
 	position: absolute;
-	text-align: center;
-	background-color: #EF4C30;
-	color:#ECECE9;
 }
 #background2 p {
 	text-align:left;
@@ -161,21 +157,14 @@ h1{
 }
 #options {
 	height:330px;
-	width:550px;
+	width:555px;
 	margin-left:235px;	
 	margin-right:235px;
-	margin-top:-10px;
+	margin-top:0px;
 	position:absolute;
 
 }
-#options a {
-	margin-bottom:0px;
-	text-align:right;
-	margin-left:440px;
-	text-decoration:none;
-	color:#836E65;
-	background-color:#C6C2B7;
-}
+
 
 #options p {
 	margin-top:20px;
