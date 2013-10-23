@@ -141,19 +141,10 @@ ul#nav li {
 	background-color: #EF4C30;
 	color:#ECECE9;
 }
-#background2 p {
-	text-align:left;
-	color:#836E65;
-	font-size: medium;
-	margin-left:30px;
-	margin-right:30px;	
-}
 
-h2 {
-	color: ECECE9;
-	margin-left: 30px;
-	margin-right: 30px;
-}
+
+
+
 #options {
 	height:330px;
 	width:550px;
@@ -192,10 +183,38 @@ h2 {
 	margin-top:650px;
 	position:absolute;
 	background-color:#ECECE9;
+	color:#836E65;
 }
 		
+#background2 p {
+	text-align:left;
+	color:#836E65;
+	font-size: small;
+	margin-left:30px;
+	margin-right:30px;	
+}
 
 
+h2 {
+	color: ECECE9;
+	margin-left: 40px;
+	margin-right: 30px;
+}
+#table1{
+	margin-left:30px;	
+}
+
+h3{
+	margin-left:30px;
+}
+
+#pumpkin{
+	height:400px;
+	width:400px;
+	position:absolute;
+	margin-top:50px;
+	margin-left:670px;	
+}
 #footer {
 	position: absolute;
 	margin-top: 1155px;

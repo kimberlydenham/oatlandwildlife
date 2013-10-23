@@ -195,31 +195,11 @@ ul#nav li {
 		
 	
 #pie {
-	height:205px;
-	width:210px;
+	height:208px;
+	width:408px;
 	margin-top:105px;
-	margin-left:180px;
+	margin-left:0px;
 	position:absolute;
-}
-
-#howdonation {
-	height:50px;
-	width:123px;
-	margin-top:130px;
-	margin-left:30px;
-	position:absolute;
-	color:#836E65;
-	font-size:medium;
-}
-
-#donations {
-	height:57px;
-	width:135px;
-	margin-top:200px;
-	margin-left:30px;
-	position:absolute;
-	color:#836E65;
-	font-size:medium;
 }
 
 #register {
