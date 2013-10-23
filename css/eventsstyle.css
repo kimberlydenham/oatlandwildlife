@@ -154,6 +154,11 @@ h2 {
 	margin-left: 30px;
 	margin-right: 30px;
 }
+
+h1{
+	margin-left:30px;
+	color:#836E65;
+}
 #options {
 	height:330px;
 	width:550px;

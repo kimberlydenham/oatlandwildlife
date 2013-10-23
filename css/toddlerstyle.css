@@ -197,8 +197,12 @@ ul#nav li {
 
 h2 {
 	color: ECECE9;
-	margin-left: 70px;
+	margin-left: 30px;
 	margin-right: 30px;
+}
+h1{
+	margin-left:70px;
+
 }
 #table1{
 	margin-left:30px;	
@@ -212,12 +216,12 @@ h5{
 	margin-left:30px;
 }
 
-#pumpkin{
+#toy{
 	height:400px;
 	width:400px;
 	position:absolute;
 	margin-top:50px;
-	margin-left:670px;	
+	margin-left:640px;	
 }
 #footer {
 	position: absolute;
