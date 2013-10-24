@@ -129,19 +129,13 @@ ul#nav li {
 	margin-left:420px;
 	position:absolute;
 }
-
 #register {
-	height: 50px;
+	height: 70px;
 	width: 300px;
 	margin-top: 65px;
 	margin-left: 640px;
-	padding-bottom:20px;
 	position: absolute;
-	text-align: center;
-	background-color: #EF4C30;
-	color:#ECECE9;
 }
-
 
 
 
