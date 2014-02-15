@@ -72,7 +72,7 @@ ul#nav {
   list-style:none;
   width: 395px;
   position:absolute;
-  font-size:small;
+  font-size:.75em;
 }
 
 ul#nav li {
@@ -124,24 +124,23 @@ ul#nav li {
 
 #ourmission {
 	height:20px;
-	width:120px;
-	margin-top:35px;
+	width:140px;
+	margin-top:10px;
 	margin-left:470px;
 	position:absolute;
 	color:#EF4C30;
-	font-size:medium;
+	font-size:1em;
 }
 
 #mission {
 	height: auto;
 	width:520px;
-	margin-top:65px;
+	margin-top:45px;
 	margin-left:470px;
 	position:absolute;
 	color:#C6C2B7;
-	font-size:medium;
+	font-size:1em;
 }
-
 
 #background2 {
 	height:750px;
@@ -151,6 +150,7 @@ ul#nav li {
 	background-color:#ECECE9;
 	text-align:center;
 	color:#836E65;
+	font-size: .75em;
 }
 
 #toll{
@@ -206,12 +206,12 @@ ul#footernav li a {
 	padding: 5px 0;
 	width: 100px;
 	color: #836E65;
-	font-size:small;
+	font-size:.75em;
 }
 
 ul#footernav {
   margin-left: -53px;
-  margin-top: 25px;
+  margin-top: 15px;
   list-style:none;
   width: 425px;
   position:absolute;
@@ -229,6 +229,8 @@ ul#footernav li {
 	 margin-left:30px;
 	 position:absolute;
 	 color: #836E65;
+	 font-size: .85em;
+
  }
  
  #email {
