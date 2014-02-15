@@ -262,7 +262,7 @@ ul#footernav li a {
 
 ul#footernav {
   margin-left: -53px;
-  margin-top: 25px;
+  margin-top: 15px;
   list-style:none;
   width: 425px;
   position:absolute;
@@ -280,6 +280,7 @@ ul#footernav li {
 	 margin-left:30px;
 	 position:absolute;
 	 color: #836E65;
+	 font-size: 1em;
  }
  
  #email {
