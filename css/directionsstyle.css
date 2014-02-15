@@ -72,7 +72,7 @@ ul#nav {
   list-style:none;
   width: 395px;
   position:absolute;
-  font-size:small;
+  font-size:.75em;
 }
 
 ul#nav li {
@@ -124,22 +124,22 @@ ul#nav li {
 
 #ourmission {
 	height:20px;
-	width:120px;
-	margin-top:35px;
+	width:140px;
+	margin-top:10px;
 	margin-left:470px;
 	position:absolute;
 	color:#EF4C30;
-	font-size:medium;
+	font-size:1em;
 }
 
 #mission {
 	height: auto;
 	width:520px;
-	margin-top:65px;
+	margin-top:45px;
 	margin-left:470px;
 	position:absolute;
 	color:#C6C2B7;
-	font-size:medium;
+	font-size:1em;
 }
 
 
@@ -156,7 +156,7 @@ ul#nav li {
 
 #background2 p{
 	text-align:center;
-	font-size:small;
+	font-size:.75em;
 	margin-right:30px;
 	margin-left:30px;
 }
@@ -195,7 +195,7 @@ ul#footernav li a {
 	padding: 5px 0;
 	width: 100px;
 	color: #836E65;
-	font-size:small;
+	font-size:.75em;
 }
 
 ul#footernav {
@@ -218,6 +218,7 @@ ul#footernav li {
 	 margin-left:30px;
 	 position:absolute;
 	 color: #836E65;
+	 font-size: .85em;
  }
  
  #email {
