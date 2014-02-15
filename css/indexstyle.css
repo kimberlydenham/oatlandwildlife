@@ -80,12 +80,10 @@ ul#nav li {
   margin-left: 20px;
 }
 
-#nav a:hover{
-	color:#3e2c15;
+#schedule a:hover{
+	color:#ede0ca;
 	transition-duration:.5s;
-  -webkit-transition:.5s;
-  -moz-transition:.5s;
-  -o-transition:.5s;
+	
 
 #donate2 {
 	height:81px;
