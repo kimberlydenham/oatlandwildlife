@@ -84,12 +84,25 @@ ul#nav a:hover{
 	color:#362D2B;
 }
 
-#donate2 {
+#donate2 {	
+	position: relative;
 	height:81px;
 	width:100px;
 	margin-left: 886px;
 	margin-top:0px;
-	position: absolute;
+
+}
+#donate2 img {
+	position:absolute;
+	left: 0;
+  -webkit-transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -o-transition: opacity .5s ease-in-out;
+  transition: opacity .5s ease-in-out;
+}
+
+#donate2 img.top:hover {
+  opacity:0;
 }
 
 #browntexture {

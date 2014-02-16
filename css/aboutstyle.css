@@ -24,6 +24,8 @@ body {
 	margin:0px auto;	
 }
 
+
+
 div{
 	font-family: Cabin-Regular copy;
 	margin: 0px auto;
@@ -63,6 +65,7 @@ ul#nav li a {
 	text-decoration: none;
 	padding: 5px 0;
 	width: 100px;
+	transition: color 1s ease;
 	color: #836E65;
 }
 
@@ -84,13 +87,27 @@ ul#nav a:hover{
 	color:#362D2B;
 }
 
-#donate2 {
+#donate2 {	
+	position: relative;
 	height:81px;
 	width:100px;
 	margin-left: 886px;
 	margin-top:0px;
-	position: absolute;
+
 }
+#donate2 img {
+	position:absolute;
+	left: 0;
+  -webkit-transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -o-transition: opacity .5s ease-in-out;
+  transition: opacity .5s ease-in-out;
+}
+
+#donate2 img.top:hover {
+  opacity:0;
+}
+
 
 #browntexture {
 	background-color: #362D2B;
