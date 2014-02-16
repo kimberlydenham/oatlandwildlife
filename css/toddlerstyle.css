@@ -79,6 +79,9 @@ ul#nav li {
   display:inline;
   margin-left: 20px;
 }
+ul#nav a:hover{
+	color:#362D2B;
+}
 
 #donate2 {
 	height:81px;
@@ -247,6 +250,10 @@ ul#footernav li {
   display:inline;
   margin-left: 45px;
 }	
+
+ul#footernav a:hover{
+	color:#362D2B;
+}
 
 #signup {
 	 height:20px;
