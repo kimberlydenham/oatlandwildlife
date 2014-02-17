@@ -66,6 +66,9 @@ ul#nav li a {
 	padding: 5px 0;
 	width: 100px;
 	transition: color 1s ease;
+	-webkit-transition: color 1s ease;
+	-moz-transition: color 1s ease;
+    -o-transition: color 1s ease;
 	color: #836E65;
 }
 
@@ -120,11 +123,23 @@ ul#nav a:hover{
 
 
 #hours {
+	position: relative;
 	height:115px;
 	width:115px;
 	margin-top:42px;
 	margin-left:30px;
+}
+#hours img {
 	position: absolute;
+	left: 0;
+	-webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+}
+
+#hours img.top:hover{
+	opacity: 0;
 }
 
 #directions {
@@ -227,6 +242,10 @@ ul#footernav li a {
 	text-decoration: none;
 	padding: 5px 0;
 	width: 100px;
+	transition: color 1s ease;
+	-webkit-transition: color 1s ease;
+	-moz-transition: color 1s ease;
+    -o-transition: color 1s ease;
 	color: #836E65;
 	font-size:.75em;
 }
