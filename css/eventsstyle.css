@@ -118,46 +118,114 @@ ul#nav a:hover{
 	position: absolute;
 }
 
-
 #events {
+	position: relative;
 	height:115px;
 	width:115px;
 	margin-top:42px;
 	margin-left:30px;
-	position: absolute;
 }
+#events img {
+	position: absolute;
+	left: 0;
+	-webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+}
+
+#events img.top:hover{
+	opacity: 0;
+}
+
 
 #toddler {
 	height:115px;
 	width:115px;
-	margin-top:42px;
+	margin-top:-115px;
 	margin-left:160px;
-	position:absolute;
+	position:relative;
 }
+
+#toddler img {
+	position: absolute;
+	left: 0;
+	-webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+}
+
+#toddler img.top:hover{
+	opacity: 0;
+}
+
 
 #trips {
 	height:115px;
 	width:115px;
-	margin-top:42px;
+	margin-top:-115px;
 	margin-left:290px;
-	position:absolute;
+	position:relative;
+}
+#trips img {
+	position: absolute;
+	left: 0;
+	-webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
 }
 
-#camp {
+#trips img.top:hover{
+	opacity: 0;
+}
+
+#camp{
 	height:115px;
 	width:115px;
-	margin-top:42px;
+	margin-top:-115px;
 	margin-left:420px;
-	position:absolute;
+	position:relative;
+}
+#camp img {
+	position: absolute;
+	left: 0;
+	-webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
 }
 
+#camp img.top:hover{
+	opacity: 0;
+}
+
+
+
 #register {
-	height: 70px;
-	width: 300px;
-	margin-top: 65px;
+	background-color:#EF4C30;
+	height: 58px;
+	width: 230px;
+	top: 65px;
 	margin-left: 640px;
 	position: absolute;
+	font-size: 1.625em;
+	padding-top: 12px;
+	padding-left: 40px;
 }
+
+#register a{
+ 	 text-decoration: none;
+ 	 color:#ECECE9;
+ }
+
+ #register a:hover{
+	color: #C6C2B7;
+ }
+
+
+
 #background2 p {
 	text-align:left;
 	color:#836E65;
@@ -250,14 +318,18 @@ ul#footernav a:hover{
 
 #signup {
 	 height:20px;
-	 width:212px;
-	 margin-top:59px;
-	 margin-left:30px;
+	 width:340px;
+	 top:56px;
+	 left:24px;
 	 position:absolute;
 	 color: #836E65;
 	 font-size: .85em;
+	 padding-left: 6px;
+	 padding-top: 3px;
+	 padding-bottom: 3px;
  }
  
+
  #email {
 	 height:26px;
 	 width:232px;
@@ -266,21 +338,98 @@ ul#footernav a:hover{
 	 position:absolute;
  }
  #signupbtn {
-	 height:26px;
-	 width:101px;
-	 margin-top:55px;
-	 margin-left:490px;
+	 height:22px;
+	 width:60px;
+	 top:56px;
+	 left:370px;
 	 position:absolute;
+	 background-color: #836E65;
+	 font-size: .75em;
+	 padding-left: 11px;
+	 padding-top: 4px;
  }
- #socialmedia {
+
+ #signupbtn a{
+ 	 text-decoration: none;
+ 	 color:#ECECE9;
+ }
+
+ #signupbtn a:hover{
+	color: #C6C2B7;
+ }
+
+
+#socialmedia {
 	 height:46px;
 	 width:230px;
 	 margin-top:27px;
 	 margin-left:755px;
 	 position:absolute;
  }
-	
-#socialmedia a	 {
-	margin-left:6px;
+
+#google {
+	position:relative;
 }
- 
+#google img {
+	position: absolute;
+	left: 0;
+	-webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+}
+
+#google img.top:hover{
+	opacity: 0;
+}
+
+#facebook {
+	left: 55px;
+	position:relative;
+}
+#facebook img {
+	position: absolute;
+	left: 0;
+	-webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+}
+
+#facebook img.top:hover{
+	opacity: 0;
+}
+
+#twitter {
+	left: 110px;
+	position:relative;
+}
+#twitter img {
+	position: absolute;
+	left: 0;
+	-webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+}
+
+#twitter img.top:hover{
+	opacity: 0;
+}
+
+#youtube {
+	left:165px;
+	position:relative;
+}
+#youtube img {
+	position: absolute;
+	left: 0;
+	-webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+}
+
+#youtube img.top:hover{
+	opacity: 0;
+}
