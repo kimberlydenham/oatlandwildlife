@@ -132,36 +132,63 @@ ul#nav a:hover{
 #hours img {
 	position: absolute;
 	left: 0;
-	-webkit-transition: opacity .5s ease-in-out;
-    -moz-transition: opacity .5s ease-in-out;
-    -o-transition: opacity .5s ease-in-out;
-    transition: opacity .5s ease-in-out;
+	-webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
 }
 
 #hours img.top:hover{
 	opacity: 0;
 }
 
+
 #directions {
 	height:115px;
 	width:115px;
-	margin-top:42px;
+	margin-top:-115px;
 	margin-left:160px;
-	position:absolute;
+	position:relative;
 }
+
+#directions img {
+	position: absolute;
+	left: 0;
+	-webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+#directions img.top:hover{
+	opacity: 0;
+}
+
 
 #ourstaff {
 	height:115px;
 	width:115px;
-	margin-top:42px;
+	margin-top:-115px;
 	margin-left:290px;
-	position:absolute;
+	position:relative;
+}
+#ourstaff img {
+	position: absolute;
+	left: 0;
+	-webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+#ourstaff img.top:hover{
+	opacity: 0;
 }
 
 #ourmission {
 	height:20px;
 	width:140px;
-	margin-top:10px;
+	margin-top:-147px;
 	margin-left:470px;
 	position:absolute;
 	color:#EF4C30;
@@ -171,7 +198,7 @@ ul#nav a:hover{
 #mission {
 	height: auto;
 	width:520px;
-	margin-top:45px;
+	margin-top:-112px;
 	margin-left:470px;
 	position:absolute;
 	color:#C6C2B7;
@@ -227,6 +254,56 @@ ul#nav a:hover{
 	position: absolute;
 	padding-left:51px;
 	padding-top:25px;
+}
+
+#toddler {
+	position:relative;
+}
+#toddler img {
+	position: absolute;
+	left: 0;
+	-webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+#toddler img.top:hover{
+	opacity: 0;
+}
+
+#hike {
+	margin-top: 205px;
+	position:relative;
+}
+#hike img {
+	position: absolute;
+	left: 0;
+	-webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+#hike img.top:hover{
+	opacity: 0;
+}
+
+#trip {
+	margin-top: 410px;
+	position:relative;
+}
+#trip img {
+	position: absolute;
+	left: 0;
+	-webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+#trip img.top:hover{
+	opacity: 0;
 }
 
 
@@ -298,9 +375,73 @@ ul#footernav a:hover{
 	 margin-left:755px;
 	 position:absolute;
  }
-	
-#socialmedia a	 {
-	margin-left:6px;
+
+
+
+#google {
+	position:relative;
 }
+#google img {
+	position: absolute;
+	left: 0;
+	-webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+#google img.top:hover{
+	opacity: 0;
+}
+
+#facebook {
+	position:relative;
+}
+#facebook img {
+	position: absolute;
+	left: 0;
+	-webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+#facebook img.top:hover{
+	opacity: 0;
+}
+
+#twitter {
+	position:relative;
+}
+#twitter img {
+	position: absolute;
+	left: 0;
+	-webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+#twitter img.top:hover{
+	opacity: 0;
+}
+
+#youtube {
+	position:relative;
+}
+#youtube img {
+	position: absolute;
+	left: 0;
+	-webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+#youtube img.top:hover{
+	opacity: 0;
+}
+
+	
  
 
