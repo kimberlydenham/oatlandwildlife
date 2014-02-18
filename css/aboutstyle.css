@@ -32,13 +32,6 @@ div{
 }
 
 
-#homeimage {
-	position: absolute;
-	margin-top: 0px;
-	margin-left:0px;
-	height: 360px;
-	width: 100%;
-}
 
 #slideshow{
 	float: left;
@@ -132,10 +125,10 @@ ul#nav a:hover{
 #hours img {
 	position: absolute;
 	left: 0;
-	-webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
 }
 
 #hours img.top:hover{
@@ -154,10 +147,10 @@ ul#nav a:hover{
 #directions img {
 	position: absolute;
 	left: 0;
-	-webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
 }
 
 #directions img.top:hover{
@@ -175,10 +168,10 @@ ul#nav a:hover{
 #ourstaff img {
 	position: absolute;
 	left: 0;
-	-webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
 }
 
 #ourstaff img.top:hover{
@@ -262,10 +255,10 @@ ul#nav a:hover{
 #toddler img {
 	position: absolute;
 	left: 0;
-	-webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
 }
 
 #toddler img.top:hover{
@@ -279,10 +272,10 @@ ul#nav a:hover{
 #hike img {
 	position: absolute;
 	left: 0;
-	-webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
 }
 
 #hike img.top:hover{
@@ -296,10 +289,10 @@ ul#nav a:hover{
 #trip img {
 	position: absolute;
 	left: 0;
-	-webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
 }
 
 #trip img.top:hover{
@@ -362,12 +355,30 @@ ul#footernav a:hover{
 	 position:absolute;
  }
  #signupbtn {
-	 height:26px;
-	 width:101px;
-	 margin-top:55px;
-	 margin-left:490px;
+	 height:23px;
+	 width:70px;
+	 top:55px;
+	 left:480px;
 	 position:absolute;
+	 color: #fff;
+	 background-color: #836E65;
+	 font-size: .85em;
+	 padding-left: 11px;
+	 padding-top: 2px;
+
  }
+
+ #signupbtn a{
+ 	 text-decoration: none;
+ 	 color: #fff;
+ }
+
+ #signupbtn a:hover{
+	color: #B4B2AB;
+ }
+
+
+
  #socialmedia {
 	 height:46px;
 	 width:230px;
@@ -377,17 +388,16 @@ ul#footernav a:hover{
  }
 
 
-
 #google {
 	position:relative;
 }
 #google img {
 	position: absolute;
 	left: 0;
-	-webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
 }
 
 #google img.top:hover{
@@ -395,15 +405,16 @@ ul#footernav a:hover{
 }
 
 #facebook {
+	left: 55px;
 	position:relative;
 }
 #facebook img {
 	position: absolute;
 	left: 0;
-	-webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
 }
 
 #facebook img.top:hover{
@@ -411,15 +422,16 @@ ul#footernav a:hover{
 }
 
 #twitter {
+	left: 110px;
 	position:relative;
 }
 #twitter img {
 	position: absolute;
 	left: 0;
-	-webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
 }
 
 #twitter img.top:hover{
@@ -427,15 +439,16 @@ ul#footernav a:hover{
 }
 
 #youtube {
+	left:165px;
 	position:relative;
 }
 #youtube img {
 	position: absolute;
 	left: 0;
-	-webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
 }
 
 #youtube img.top:hover{
