@@ -406,9 +406,9 @@ ul#footernav a:hover{
  }
  
 
- input {
-	 height:26px;
-	 width:232px;
+input {
+	 height:21px;
+	 width:140px;
 	 margin-top:55px;
 	 left:237px;
 	 position:absolute;
@@ -417,7 +417,7 @@ ul#footernav a:hover{
 	 height:22px;
 	 width:60px;
 	 top:56px;
-	 left:370px;
+	 left:390px;
 	 position:absolute;
 	 background-color: #836E65;
 	 font-size: .75em;

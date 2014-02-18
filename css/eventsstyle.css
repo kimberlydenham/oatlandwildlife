@@ -330,13 +330,15 @@ ul#footernav a:hover{
  }
  
 
- #email {
-	 height:26px;
-	 width:232px;
+input {
+	 height:21px;
+	 width:140px;
 	 margin-top:55px;
-	 margin-left:237px;
+	 left:237px;
 	 position:absolute;
  }
+
+ 
  #signupbtn {
 	 height:22px;
 	 width:60px;
