@@ -185,7 +185,7 @@ ul#nav a:hover{
 #ourmission {
 	height:20px;
 	width:140px;
-	margin-top:10px;
+	margin-top:-147px;
 	margin-left:470px;
 	position:absolute;
 	color:#EF4C30;
@@ -195,7 +195,7 @@ ul#nav a:hover{
 #mission {
 	height: auto;
 	width:520px;
-	margin-top:45px;
+	margin-top:-112px;
 	margin-left:470px;
 	position:absolute;
 	color:#C6C2B7;
@@ -411,10 +411,7 @@ ul#footernav a:hover{
 	 margin-left:755px;
 	 position:absolute;
  }
-	
-#socialmedia a	 {
-	margin-left:6px;
-}
+
 
 #google {
 	position:relative;
