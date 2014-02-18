@@ -40,7 +40,7 @@ div{
 
 #slideshow{
 	float: left;
-	position: fixed;
+	position: absolute;
 	padding: 0;
 }
 
