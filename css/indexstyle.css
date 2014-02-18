@@ -406,11 +406,11 @@ ul#footernav a:hover{
  }
  
 
- #email {
+ input {
 	 height:26px;
 	 width:232px;
 	 margin-top:55px;
-	 margin-left:237px;
+	 left:237px;
 	 position:absolute;
  }
  #signupbtn {
